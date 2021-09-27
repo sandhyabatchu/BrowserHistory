@@ -1,0 +1,43 @@
+.bg-container {
+  background-color: #2850a7;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.history-heading {
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+}
+.clock-logo {
+  height: 15px;
+  width: 15px;
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 15px;
+}
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.History-list {
+  display: flex;
+  flex-direction: column;
+}
